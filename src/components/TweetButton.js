@@ -9,9 +9,9 @@ const StyledTweetButton = styled.div`
 
   a {
     cursor: pointer;
-    font-size: 23px;
+    font-size: 40px;
     font-weight: 500;
-    color: #25427C;
+    color: #35C1E8;
     margin: 10px;
   }
 `;

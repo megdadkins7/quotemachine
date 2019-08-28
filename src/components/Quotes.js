@@ -7,21 +7,11 @@ import NewQuoteButton from './NewQuoteButton'
 import TweetButton from './TweetButton'
 
 const StyledQuotes = styled.div`
-  ul {
-    list-style: none;
-  }
+  align-items: center;
   .buttons {
     display: flex;
     justify-content: center;
-  }
-  #author {
-    font-size: 12px;
-    color: #414141;
-    margin-left: 15px;
-    font-style: italic;
-  }
-  #text {
-    margin-bottom: -1px;
+    align-items: center;
   }
 `;
 

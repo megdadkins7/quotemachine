@@ -12,9 +12,9 @@ const StyledNewQuoteButton = styled.div`
     background-color: transparent;
     outline: none;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 35px;
     font-weight: 500;
-    color: #25427C;
+    color: #5AE85A;
     margin: 10px;
   }
 `;
