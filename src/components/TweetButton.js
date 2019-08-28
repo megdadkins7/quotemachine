@@ -12,17 +12,21 @@ const StyledTweetButton = styled.div`
     font-size: 23px;
     font-weight: 500;
     color: #25427C;
+    margin: 10px;
   }
 `;
 
-function TweetButton() {
+function TweetButton({ quote, author }) {
   return (
     <StyledTweetButton>
       <a
-        className='tweet-quote'
+        className='link-social'
         id='tweet-quote'
-        title='Tweet this quote!'
-        href='http://google.com'
+        href='http://twitter.com'
+        target='_blank' 
+        rel="noopener noreferrer"
+        title="Post this quote on twitter!"
+        href={`https://twitter.com/intent/tweet?text=${quote} ${author}`}
       >
         <FaTwitter />
       </a>

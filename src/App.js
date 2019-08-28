@@ -1,11 +1,11 @@
 import React from 'react';
 
-import QuoteBox from './components/QuoteBox';
+import Quotes from './components/Quotes'
 
 function App() {
   return (
     <>
-      <QuoteBox />
+      <Quotes />
     </>
   );
 }

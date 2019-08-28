@@ -15,15 +15,17 @@ const StyledNewQuoteButton = styled.div`
     font-size: 20px;
     font-weight: 500;
     color: #25427C;
+    margin: 10px;
   }
 `;
 
-function NewQuoteButton() {
+function NewQuoteButton({ onClick }) {
   return (
     <StyledNewQuoteButton>  
       <button
-        className='new-quote'
+        className='button'
         id='new-quote'
+        onClick={onClick}
       >
         <FaSyncAlt />
       </button>
